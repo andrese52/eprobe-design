@@ -9,7 +9,7 @@ This guide explains how to create a micromamba environment, install required too
 Open a terminal and create a new environment:
 
 ```bash
-micromamba create -n ncbi-genomes -c conda-forge python=3.10 ncbi-datasets-cli entrez-direct unzip
+micromamba create -n ncbi-genomes -c conda-forge -c bioconda python=3.10 ncbi-datasets-cli entrez-direct unzip
 micromamba activate ncbi-genomes
 ```
 
