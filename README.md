@@ -68,6 +68,12 @@ After reactivating your environment, you can install the sra tools by running:
 micromamba install -c bioconda sra-tools
 ```
 
+To download a list of SRA files, you can do it as follows:
+
+```bash
+cat sralist.txt | xargs fasterq-dump -v --split-files --outdir "sras"
+```
+
 ---
 
 ## 📘 Notes
