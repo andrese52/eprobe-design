@@ -60,6 +60,14 @@ Each time you start a new terminal session:
 micromamba activate ncbi-genomes
 ```
 
+## Installing sra tools for downloading SRA files
+
+After reactivating your environment, you can install the sra tools by running:
+
+```bash
+micromamba install -c bioconda sra-tools
+```
+
 ---
 
 ## 📘 Notes
